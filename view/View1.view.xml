@@ -1,0 +1,35 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="testCamera.view.View1">
+	<Page title="Camera Test">
+		<content>
+		    <HBox width="100%" id="__hbox0">
+		        <items>
+		            <Button text="Take a photo" width="150px" id="__button0" press="capturePhoto"/>
+		            <Button text="Pick from gallery" width="150px" id="__button1" press="getPhoto"/>
+		        </items>
+		    </HBox>
+		    <HBox width="100%" id="__hbox1" justifyContent="Center">
+		        <items>
+		            <Image width="200px" height="200px" id="myImage"/>
+		        </items>
+		    </HBox>
+		    <HBox width="100%" id="__hbox2">
+		        <items>
+		            <Label text="Latitude" width="100%" id="__label0"/>
+		            <Text text="Calculating..." id="txtLatitude"/>
+		        </items>
+		    </HBox>
+		    <HBox width="100%" id="__hbox3">
+		        <items>
+		            <Label xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" text="Longitude" width="100%" id="__label0_copy"/>
+		            <Text xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" text="Calculating..." id="txtLongitude"/>
+		        </items>
+		    </HBox>
+		    <HBox width="100%" id="__hbox4">
+		        <items>
+		            <Label xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" text="Altitude" width="100%" id="__label0_copy2"/>
+		            <Text xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" text="Calculating..." id="txtAltitude"/>
+		        </items>
+		    </HBox>
+		</content>
+	</Page>
+</core:View>
